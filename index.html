@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Ricardo Bettini Pacola - Data Engineer & BI Specialist</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="lang-switcher">
+                <button onclick="renderContent('pt' )">PT</button>
+                <button onclick="renderContent('en')">EN</button>
+                <button onclick="renderContent('it')">IT</button>
+            </div>
+            <h1 id="name"></h1>
+            <p id="title" class="main-title"></p>
+        </header>
+
+        <section id="contact" class="contact-section">
+            <!-- Contact info will be rendered here by JS -->
+        </section>
+
+        <main>
+            <section>
+                <h2 id="summary-title"></h2>
+                <p id="summary-content"></p>
+            </section>
+
+            <section>
+                <h2 id="experience-title"></h2>
+                <div id="experience-content"></div>
+            </section>
+
+            <section>
+                <h2 id="skills-title"></h2>
+                <div id="skills-content"></div>
+            </section>
+
+            <section>
+                <h2 id="education-title"></h2>
+                <div id="education-content"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 José Ricardo Bettini Pacola</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

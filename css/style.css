@@ -1,0 +1,144 @@
+body {
+    font-family: 'Lora', serif;
+    background-color: #fdfdfd;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    padding-top: 40px; /* Adicione esta linha */
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    margin: 0.5em 0 0.2em 0;
+    color: #2c3e50;
+}
+
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    color: #005A9C;
+    font-weight: 400;
+    margin: 0;
+}
+
+.lang-switcher {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.lang-switcher button {
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.lang-switcher button:hover, .lang-switcher button.active {
+    background: #005A9C;
+    color: #fff;
+    border-color: #005A9C;
+}
+
+.contact-section {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+}
+
+.contact-section a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: #2c3e50;
+    border-bottom: 2px solid #005A9C;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.experience-item, .education-item {
+    margin-bottom: 25px;
+}
+
+.experience-item h3, .education-item h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.experience-item .company, .education-item .institution {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.experience-item ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.skills-category {
+    margin-bottom: 20px;
+}
+
+.skills-category h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.skills-category p {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid #f2f2f2;
+    font-size: 0.8em;
+    color: #777;
+}
+
+@media (max-width: 600px) {
+    body { padding: 0; }
+    .container { padding: 20px; border-radius: 0; }
+    .lang-switcher { position: static; margin-bottom: 20px; }
+    h1 { font-size: 2em; }
+}

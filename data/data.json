@@ -1,0 +1,242 @@
+{
+  "personalInfo": {
+    "name": "José Ricardo Bettini Pacola",
+    "contact": {
+      "location": {
+        "pt": "Cidadão Ítalo-Brasileiro | João Pessoa, Brasil | Retornando para Varese, Itália",
+        "en": "Brazilian-Italian Citizen | João Pessoa, Brazil | Relocating to Varese, Italy",
+        "it": "Cittadino Italo-Brasiliano | João Pessoa, Brasile | In fase di trasferimento a Varese, Italia"
+      },
+      "phone_br": "+55 (83) 98858-1940",
+      "phone_it": "+39 344 635 2743",
+      "email_br": "zevatron@zevatron.com.br",
+      "email_it": "zevatron@zevatron.it",
+      "linkedin": "linkedin.com/in/zevatron",
+      "github": "github.com/zevatron"
+    }
+  },
+  "content": {
+    "pt": {
+      "title": "Engenheiro de Dados e Especialista em Business Intelligence",
+      "sectionTitles": {
+        "summary": "Resumo Profissional",
+        "experience": "Experiência Profissional",
+        "skills": "Competências Técnicas",
+        "education": "Formação Acadêmica"
+      },
+      "summary": "Engenheiro de Dados e Especialista em Business Intelligence com mais de 5 anos de experiência dedicada à transformação de dados complexos em insights estratégicos e acionáveis. Especialista no ecossistema Qlik (Qlik Sense, NPrinting) com forte domínio de Python, SQL e design de processos ETL. Habilidade comprovada na gestão de projetos de dados em plataformas de nuvem como AWS e no desenvolvimento de soluções com ferramentas modernas como dbt e Snowflake. Busco uma oportunidade desafiadora na Europa para aplicar minha experiência em ambientes orientados a dados.",
+      "experience": [
+        {
+          "role": "Analista de Dados, Desenvolvedor Qlik & Python",
+          "company": "Unimed-BH",
+          "location": "Belo Horizonte, Brasil",
+          "period": "Novembro 2020 – Presente",
+          "description": [
+            "Desenvolvedor líder para soluções de BI, criando e mantendo dashboards estratégicos em Qlik Sense (Nível Especialista) e relatórios automatizados com NPrinting.",
+            "Projetou e otimizou pipelines de ETL usando Python e SQL avançado, reduzindo o tempo de processamento de dados e melhorando a confiabilidade.",
+            "Gerenciou projetos de dados na AWS, garantindo a integridade e a disponibilidade dos dados para fins analíticos.",
+            "Realizou análises aprofundadas de dados para identificar tendências de negócios e fornecer insights para as partes interessadas."
+          ]
+        },
+        {
+          "role": "Desenvolvedor Qlik",
+          "company": "MJV Technology & Innovation",
+          "location": "João Pessoa, Brasil",
+          "period": "Janeiro 2023 – Março 2024",
+          "description": [
+            "Liderou a migração de dashboards de BI legados de QlikView para Qlik Sense, modernizando a plataforma de BI da empresa.",
+            "Conduziu modelagem de dados e análises para garantir uma transição transparente e a consistência dos dados."
+          ]
+        },
+        {
+          "role": "Desenvolvedor Qlik & Analista de Dados",
+          "company": "Fiabilité",
+          "location": "João Pessoa, Brasil",
+          "period": "Julho 2019 – Maio 2021",
+          "description": [
+            "Desenvolveu soluções de Business Intelligence de ponta a ponta para o setor financeiro usando Qlik, JasperReports e Pentaho Data Integration (PDI).",
+            "Projetou fluxos de integração de dados e realizou análises de dados complexas para apoiar a avaliação de risco de crédito."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Business Intelligence",
+          "items": [
+            { "level": "Especialista", "list": "Qlik Sense, QlikView, NPrinting, Qlik Data Modeling" },
+            { "level": "Proficiente", "list": "dbt, JasperReports, Pentaho Data Integration (PDI)" },
+            { "level": "Iniciante", "list": "Power BI" }
+          ]
+        },
+        {
+          "category": "Engenharia de Dados & Bancos de Dados",
+          "items": [
+            { "level": "Linguagens", "list": "Python (Pandas), SQL (Avançado)" },
+            { "level": "Plataformas & Warehouses", "list": "AWS (S3), Snowflake, OracleDB, PostgreSQL" },
+            { "level": "Conceitos Fundamentais", "list": "ETL/ELT, Data Warehousing, Modelagem de Dados, Análise de Dados" }
+          ]
+        },
+        {
+          "category": "Tecnologias de Suporte",
+          "items": [
+            { "level": "Controle de Versão", "list": "Git, GitHub" },
+            { "level": "Experiência Legada", "list": "Java (JavaEE, JSF, Spring)" }
+          ]
+        }
+      ],
+      "education": [
+        { "degree": "Tecnologia em Sistemas para Internet", "institution": "Instituto Federal da Paraíba (IFPB), Brasil", "period": "2015 - 2019" },
+        { "degree": "Certificação Full Stack Web Development", "institution": "freeCodeCamp", "period": "2015 - 2016" },
+        { "degree": "Licenciatura Plena em Física", "institution": "Universidade Federal de Mato Grosso (UFMT), Brasil", "period": "1999 - 2003" }
+      ]
+    },
+    "en": {
+      "title": "Data Engineer & Business Intelligence Specialist",
+      "sectionTitles": {
+        "summary": "Professional Summary",
+        "experience": "Professional Experience",
+        "skills": "Technical Skills",
+        "education": "Education"
+      },
+      "summary": "Data Engineer and Business Intelligence Specialist with over 5 years of dedicated experience in transforming complex data into actionable, strategic insights. Expert in the Qlik ecosystem (Qlik Sense, NPrinting) with a strong command of Python, SQL, and ETL process design. Proven ability to manage data projects on cloud platforms like AWS and develop solutions with modern tools such as dbt and Snowflake. Seeking a challenging role in Europe to leverage my expertise in data-driven environments.",
+      "experience": [
+        {
+          "role": "Data Analyst, Qlik & Python Developer",
+          "company": "Unimed-BH",
+          "location": "Belo Horizonte, Brazil",
+          "period": "Nov 2020 – Present",
+          "description": [
+            "Lead developer for BI solutions, creating and maintaining strategic dashboards in Qlik Sense (Expert Level) and automated reports with NPrinting.",
+            "Engineered and optimized ETL pipelines using Python and advanced SQL, reducing data processing time and improving reliability.",
+            "Managed data projects on AWS, ensuring data integrity and availability for analytical purposes.",
+            "Performed in-depth data analysis to identify key business trends and provide actionable insights to stakeholders."
+          ]
+        },
+        {
+          "role": "Qlik Developer",
+          "company": "MJV Technology & Innovation",
+          "location": "João Pessoa, Brazil",
+          "period": "Jan 2023 – Mar 2024",
+          "description": [
+            "Led the migration of legacy BI dashboards from QlikView to Qlik Sense, enhancing performance and user experience.",
+            "Conducted data modeling and analysis to ensure a seamless transition and data consistency."
+          ]
+        },
+        {
+          "role": "Qlik Developer & Data Analyst",
+          "company": "Fiabilité",
+          "location": "João Pessoa, Brazil",
+          "period": "Jul 2019 – May 2021",
+          "description": [
+            "Developed end-to-end Business Intelligence solutions for the financial sector using Qlik, JasperReports, and Pentaho Data Integration (PDI).",
+            "Designed data integration workflows and performed complex data analysis to support credit risk assessment."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Business Intelligence",
+          "items": [
+            { "level": "Expert", "list": "Qlik Sense, QlikView, NPrinting, Qlik Data Modeling" },
+            { "level": "Proficient", "list": "dbt, JasperReports, Pentaho Data Integration (PDI)" },
+            { "level": "Beginner", "list": "Power BI" }
+          ]
+        },
+        {
+          "category": "Data Engineering & Databases",
+          "items": [
+            { "level": "Languages", "list": "Python (Pandas), SQL (Advanced)" },
+            { "level": "Platforms & Warehouses", "list": "AWS (S3), Snowflake, OracleDB, PostgreSQL" },
+            { "level": "Core Concepts", "list": "ETL/ELT, Data Warehousing, Data Modeling, Data Analysis" }
+          ]
+        },
+        {
+          "category": "Supporting Technologies",
+          "items": [
+            { "level": "Version Control", "list": "Git, GitHub" },
+            { "level": "Legacy Experience", "list": "Java (JavaEE, JSF, Spring)" }
+          ]
+        }
+      ],
+      "education": [
+        { "degree": "Degree in Internet Systems Technology", "institution": "Federal Institute of Paraíba (IFPB), Brazil", "period": "2015 - 2019" },
+        { "degree": "Full Stack Web Development Certification", "institution": "freeCodeCamp", "period": "2015 - 2016" },
+        { "degree": "Degree in Physics", "institution": "Federal University of Mato Grosso (UFMT), Brazil", "period": "1999 - 2003" }
+      ]
+    },
+    "it": {
+      "title": "Ingegnere dei Dati e Specialista in Business Intelligence",
+      "sectionTitles": {
+        "summary": "Profilo Professionale",
+        "experience": "Esperienza Professionale",
+        "skills": "Competenze Tecniche",
+        "education": "Formazione"
+      },
+      "summary": "Ingegnere dei Dati e Specialista in Business Intelligence con oltre 5 anni di esperienza dedicata alla trasformazione di dati complessi in insight strategici e operativi. Esperto nell'ecosistema Qlik (Qlik Sense, NPrinting) con una solida padronanza di Python, SQL e progettazione di processi ETL. Comprovata capacità di gestire progetti di dati su piattaforme cloud come AWS e di sviluppare soluzioni con strumenti moderni quali dbt e Snowflake. Ricerco un ruolo sfidante in Europa per applicare la mia esperienza in contesti data-driven.",
+      "experience": [
+        {
+          "role": "Analista Dati, Sviluppatore Qlik & Python",
+          "company": "Unimed-BH",
+          "location": "Belo Horizonte, Brasile",
+          "period": "Novembre 2020 – Presente",
+          "description": [
+            "Sviluppatore principale per soluzioni di BI, creando e mantenendo dashboard strategici in Qlik Sense (Livello Esperto) e report automatizzati con NPrinting.",
+            "Progettazione e ottimizzazione di pipeline ETL utilizzando Python e SQL avanzato, riducendo i tempi di elaborazione dei dati e migliorandone l'affidabilità.",
+            "Gestione di progetti di dati su AWS, garantendo l'integrità e la disponibilità dei dati per scopi analitici.",
+            "Conduzione di analisi approfondite dei dati per identificare i principali trend di business e fornire insight strategici agli stakeholder."
+          ]
+        },
+        {
+          "role": "Sviluppatore Qlik",
+          "company": "MJV Technology & Innovation",
+          "location": "João Pessoa, Brasile",
+          "period": "Gennaio 2023 – Marzo 2024",
+          "description": [
+            "Gestione della migrazione di dashboard di BI da QlikView a Qlik Sense, modernizzando lo stack tecnologico aziendale.",
+            "Sviluppo di modelli di dati e conduzione di analisi per garantire una transizione fluida e la coerenza dei dati."
+          ]
+        },
+        {
+          "role": "Sviluppatore Qlik & Analista Dati",
+          "company": "Fiabilité",
+          "location": "João Pessoa, Brasile",
+          "period": "Luglio 2019 – Maggio 2021",
+          "description": [
+            "Sviluppo di soluzioni di Business Intelligence end-to-end per il settore finanziario utilizzando Qlik, JasperReports e Pentaho Data Integration (PDI).",
+            "Progettazione di flussi di integrazione dati e analisi complesse a supporto della valutazione del rischio di credito."
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "category": "Business Intelligence",
+          "items": [
+            { "level": "Esperto", "list": "Qlik Sense, QlikView, NPrinting, Qlik Data Modeling" },
+            { "level": "Competente", "list": "dbt, JasperReports, Pentaho Data Integration (PDI)" },
+            { "level": "Principiante", "list": "Power BI" }
+          ]
+        },
+        {
+          "category": "Ingegneria dei Dati & Database",
+          "items": [
+            { "level": "Linguaggi", "list": "Python (Pandas), SQL (Avanzato)" },
+            { "level": "Piattaforme & Warehouse", "list": "AWS (S3), Snowflake, OracleDB, PostgreSQL" },
+            { "level": "Concetti Chiave", "list": "ETL/ELT, Data Warehousing, Data Modeling, Analisi dei Dati" }
+          ]
+        },
+        {
+          "category": "Tecnologie di Supporto",
+          "items": [
+            { "level": "Controllo Versione", "list": "Git, GitHub" },
+            { "level": "Esperienze Pregresse", "list": "Java (JavaEE, JSF, Spring)" }
+          ]
+        }
+      ],
+      "education": [
+        { "degree": "Laurea in Tecnologia dei Sistemi Internet", "institution": "Instituto Federal da Paraíba (IFPB), Brasile", "period": "2015 - 2019" },
+        { "degree": "Certificazione Full Stack Web Development", "institution": "freeCodeCamp", "period": "2015 - 2016" },
+        { "degree": "Laurea in Fisica", "institution": "Universidade Federal de Mato Grosso (UFMT), Brasile", "period": "1999 - 2003" }
+      ]
+    }
+  }
+}
