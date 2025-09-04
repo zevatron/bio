@@ -20,7 +20,7 @@ header {
     text-align: center;
     margin-bottom: 30px;
     position: relative;
-    padding-top: 40px; /* Adicione esta linha */
+    padding-top: 40px;
 }
 
 h1 {
@@ -141,4 +141,100 @@ footer {
     .container { padding: 20px; border-radius: 0; }
     .lang-switcher { position: static; margin-bottom: 20px; }
     h1 { font-size: 2em; }
+}
+
+.header-actions {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.lang-btn {
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.lang-btn:hover, .lang-btn.active {
+    background: #005A9C;
+    color: #fff;
+    border-color: #005A9C;
+}
+
+.action-separator {
+    height: 25px;
+    width: 1px;
+    background-color: #ddd;
+    margin: 0 15px; /* Espaçamento do separador */
+}
+
+#print-btn, #download-pdf {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: #555;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+#print-btn:hover, #download-pdf:hover {
+    color: #005A9C;
+}
+
+@media print {
+    body {
+        padding: 0;
+        font-size: 10pt;
+        background: #fff;
+    }
+
+    .container {
+        box-shadow: none;
+        border: none;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    /* Esconde todos os elementos de ação */
+    .header-actions, footer {
+        display: none;
+    }
+
+    header {
+        padding-top: 0;
+        text-align: left; /* Alinha tudo à esquerda para um layout de CV clássico */
+        margin-bottom: 20px;
+    }
+
+    h1, .main-title {
+        text-align: left;
+    }
+    
+    .contact-section {
+        text-align: left;
+        padding-left: 0;
+    }
+
+    h2 {
+        page-break-after: avoid;
+        margin-top: 20px;
+    }
+
+    .experience-item, .education-item, .skills-category {
+        page-break-inside: avoid;
+    }
+
+    a {
+        color: #333 !important;
+        text-decoration: none !important;
+    }
 }

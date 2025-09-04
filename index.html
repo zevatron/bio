@@ -8,14 +8,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
 <body>
     <div class="container">
         <header>
-            <div class="lang-switcher">
-                <button onclick="renderContent('pt' )">PT</button>
-                <button onclick="renderContent('en')">EN</button>
-                <button onclick="renderContent('it')">IT</button>
+            <div class="header-actions">
+                <button class="lang-btn" onclick="renderContent('pt')">PT</button>
+                <button class="lang-btn" onclick="renderContent('en')">EN</button>
+                <button class="lang-btn" onclick="renderContent('it')">IT</button>
+                
+                <!-- Divisor visual -->
+                <div class="action-separator"></div>
+
+                <button id="print-btn" title="Versão para Impressão"><i class="fas fa-print"></i></button>
+                <button id="download-pdf" title="Download PDF"><i class="fas fa-file-pdf"></i></button>
             </div>
             <h1 id="name"></h1>
             <p id="title" class="main-title"></p>
